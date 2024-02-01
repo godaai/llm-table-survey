@@ -47,23 +47,23 @@
 
 | Name               | Keywords                  | Artifact                                                                 | Paper                                                       |
 |--------------------|---------------------------|--------------------------------------------------------------------------|-------------------------------------------------------------|
-| MBPP               | Advanced data analysis    | [datasets](https://huggingface.co/datasets/mbpp)                         | [arXiv 21](https://arxiv.org/abs/2108.07732)                |
-| Dr. spider         | Text-to-sql               | [datasets](https://github.com/awslabs/diagnostic-robustness-text-to-sql) | [ICLR 23](https://arxiv.org/abs/2301.08881)                 |
-| TabFact            | Table QA                  | [datasets](https://tabfact.github.io/)                                   | [ICLR 20](https://arxiv.org/abs/1909.02164)                 |
-| HyBirdQA           | Table QA                  | [datasets](https://github.com/wenhuchen/HybridQA)                        | [EMNLP 20](https://arxiv.org/abs/2004.07347)                |
-| Humaneval          | Advanced data analysis    | [datasets](https://github.com/openai/human-eval)                         | [arXiv 21](https://arxiv.org/abs/2107.03374)                |
-| AnaMeta            | Interpretation            | [datasets](https://github.com/microsoft/AnaMeta)                         | [ACL 23](https://arxiv.org/abs/2209.00946)                  |
-| InfiAgent-DABench  | Advanced data analysis    | [datasets](https://arxiv.org/abs/2401.05507)                             | [arXiv 24](https://arxiv.org/abs/2401.05507)                |
-| GitTables          | Advanced data analysis    | [datasets](https://gittables.github.io/)                                 | [PACMMOD 23](https://arxiv.org/abs/2106.07258)              |
-| DS-1000            | Advanced data analysis    | [datasets](https://ds1000-code-gen.github.io/)                           | [ICML 23](https://arxiv.org/abs/2211.11501)                 |
-| WDC                | Web Table                 | [datasets](https://webdatacommons.org/)                                  | [WWW 16](https://dl.acm.org/doi/10.1145/2872518.2889386)    |
-| Bird               | Text-to-sql               | [datasets](https://bird-bench.github.io/)                                | [NeurIPS 23](https://arxiv.org/abs/2305.03111)              |
-| DART               | Table-to-text             | [datasets](https://github.com/Yale-LILY/dart)                            | [NAACL 21](https://arxiv.org/abs/2007.02871)                |
-| FetaQA             | Table QA                  | [datasets](https://github.com/Yale-LILY/FeTaQA)                          | [TACL 22](https://arxiv.org/abs/2104.00369)                 |
-| ToTTo              | Table-to-text             | [datasets](https://github.com/google-research-datasets/totto)            | [EMNLP 20](https://arxiv.org/abs/2004.14373)                |
-| WiKiTableQuestions | Table QA                  | [datasets](https://github.com/ppasupat/WikiTableQuestions)               | [ACL 15](https://arxiv.org/abs/1508.00305)                  |
-| sheetperf          | Manipulation              | [datasets](https://github.com/dataspread/spreadsheet-benchmark)          | [SIGMOD 20](https://dl.acm.org/doi/10.1145/3318464.3389782) |
-| GPT4Table          | Table QA,   Table-to-text | [datasets](https://github.com/Y-Sui/GPT4Table)                           | [WSDM 24](https://arxiv.org/abs/2305.13062)                 |
-| Spider             | Text-to-sql               | [datasets](https://yale-lily.github.io/spider)                           | [EMNLP 18](https://arxiv.org/abs/1809.08887)                |
-| RobuT              | Table QA                  | [datasets](https://github.com/yilunzhao/RobuT)                           | [ACL 23](https://arxiv.org/abs/2306.14321)                  |
-| WiKiSQL            | Table QA,Text-to-sql      | [datasets](https://github.com/salesforce/WikiSQL)                        | [arXiv 17](https://arxiv.org/abs/1709.00103)                                                |
+| MBPP               | Advanced data analysis    | [link](https://huggingface.co/datasets/mbpp)                             | [arXiv 21](https://arxiv.org/abs/2108.07732)                |
+| Dr. spider         | Text-to-sql               | [link](https://github.com/awslabs/diagnostic-robustness-text-to-sql) | [ICLR 23](https://arxiv.org/abs/2301.08881)                 |
+| TabFact            | Table QA                  | [link](https://tabfact.github.io/)                                   | [ICLR 20](https://arxiv.org/abs/1909.02164)                 |
+| HyBirdQA           | Table QA                  | [link](https://github.com/wenhuchen/HybridQA)                        | [EMNLP 20](https://arxiv.org/abs/2004.07347)                |
+| Humaneval          | Advanced data analysis    | [link](https://github.com/openai/human-eval)                         | [arXiv 21](https://arxiv.org/abs/2107.03374)                |
+| AnaMeta            | Interpretation            | [link](https://github.com/microsoft/AnaMeta)                         | [ACL 23](https://arxiv.org/abs/2209.00946)                  |
+| InfiAgent-DABench  | Advanced data analysis    | [link](https://arxiv.org/abs/2401.05507)                             | [arXiv 24](https://arxiv.org/abs/2401.05507)                |
+| GitTables          | Advanced data analysis    | [link](https://gittables.github.io/)                                 | [PACMMOD 23](https://arxiv.org/abs/2106.07258)              |
+| DS-1000            | Advanced data analysis    | [link](https://ds1000-code-gen.github.io/)                           | [ICML 23](https://arxiv.org/abs/2211.11501)                 |
+| WDC                | Web Table                 | [link](https://webdatacommons.org/)                                  | [WWW 16](https://dl.acm.org/doi/10.1145/2872518.2889386)    |
+| Bird               | Text-to-sql               | [link](https://bird-bench.github.io/)                                | [NeurIPS 23](https://arxiv.org/abs/2305.03111)              |
+| DART               | Table-to-text             | [link](https://github.com/Yale-LILY/dart)                            | [NAACL 21](https://arxiv.org/abs/2007.02871)                |
+| FetaQA             | Table QA                  | [link](https://github.com/Yale-LILY/FeTaQA)                          | [TACL 22](https://arxiv.org/abs/2104.00369)                 |
+| ToTTo              | Table-to-text             | [link](https://github.com/google-research-datasets/totto)            | [EMNLP 20](https://arxiv.org/abs/2004.14373)                |
+| WiKiTableQuestions | Table QA                  | [link](https://github.com/ppasupat/WikiTableQuestions)               | [ACL 15](https://arxiv.org/abs/1508.00305)                  |
+| sheetperf          | Manipulation              | [link](https://github.com/dataspread/spreadsheet-benchmark)          | [SIGMOD 20](https://dl.acm.org/doi/10.1145/3318464.3389782) |
+| GPT4Table          | Table QA,   Table-to-text | [link](https://github.com/Y-Sui/GPT4Table)                           | [WSDM 24](https://arxiv.org/abs/2305.13062)                 |
+| Spider             | Text-to-sql               | [link](https://yale-lily.github.io/spider)                           | [EMNLP 18](https://arxiv.org/abs/1809.08887)                |
+| RobuT              | Table QA                  | [link](https://github.com/yilunzhao/RobuT)                           | [ACL 23](https://arxiv.org/abs/2306.14321)                  |
+| WiKiSQL            | Table QA,Text-to-sql      | [link](https://github.com/salesforce/WikiSQL)                        | [arXiv 17](https://arxiv.org/abs/1709.00103)                                                |
