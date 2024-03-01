@@ -74,3 +74,4 @@
 | RobuT              | Table QA                  | [link](https://github.com/yilunzhao/RobuT)                           | [ACL 23](https://arxiv.org/abs/2306.14321)                  |
 | WiKiSQL            | Table QA,Text-to-SQL      | [link](https://github.com/salesforce/WikiSQL)                        | [arXiv 17](https://arxiv.org/abs/1709.00103)                                                |
 | Observatory                           | Table Embedding Benchmark | [Code](https://github.com/superctj/observatory)                                          | [VLDB 24](https://arxiv.org/abs/2310.07736v3)                                                           |
+| TableInstruct                           | Table Instruction Tuning Benchmark | [link](https://huggingface.co/datasets/osunlp/TableInstruct)                                          | [arXiv 23](https://arxiv.org/pdf/2311.09206.pdf)                                                           |
