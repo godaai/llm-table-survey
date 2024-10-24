@@ -29,6 +29,9 @@
 * GPT-3, Language Models are Few-Shot Learners. NeurIPS 20. \[[Paper](https://papers.nips.cc/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html)\]
 * T5, Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer. \[[Paper](https://jmlr.org/papers/v21/20-074.html)\]
 * FLAN, Finetuned Language Models Are Zero-Shot Learners. ICLR 22. \[[Paper](https://openreview.net/pdf?id=gEZrGCozdqR)\] \[[Code](https://github.com/google-research/FLAN)\]
+* DPO, Direct Preference Optimization: Your Language Model is Secretly a Reward Model. NeurIPS 23. \[[Paper](https://arxiv.org/pdf/2305.18290)\]
+* PEFT, The Power of Scale for Parameter-Efficient Prompt Tuning. EMNLP 21. \[[Paper](https://aclanthology.org/2021.emnlp-main.243.pdf)\]
+* LoRA, LoRA: Low-rank Adaptation of Large Language Models. ICLR 22. \[[Paper](https://arxiv.org/pdf/2106.09685)\]
 * Chain-of-thought Prompting, Chain-of-thought prompting elicits reasoning in large language models. NeurIPS 22. \[[Paper](https://proceedings.neurips.cc/paper_files/paper/2022/hash/9d5609613524ecf4f15af0f7b31abca4-Abstract-Conference.html)\]
 * Least-to-most Prompting, Least-to-most prompting enables complex reasoning in large language models. ICLR 23. \[[Paper](https://openreview.net/pdf?id=WZH7099tgfM)\]
 * Self-consistency Prompting,	Self-consistency improves chain of thought reasoning in language models. ICLR 23. \[[Paper](https://openreview.net/pdf?id=1PL1NIMMrw)\]
@@ -65,12 +68,26 @@
 * TableLLM, TableLLM: Enabling Tabular Data Manipulation by LLMs in Real Office Usage Scenarios. \[[Paper](http://arxiv.org/abs/2403.19318)\] \[[Model TableLLM 7B](https://huggingface.co/RUCKBReasoning/TableLLM-7b)\] \[[Model TableLLM 13B](https://huggingface.co/RUCKBReasoning/TableLLM-13b)\]
 * StructLM, StructLM: Towards Building Generalist Models for Structured Knowledge Grounding. arXiv 24. \[[Paper](https://arxiv.org/abs/2402.16671)\] \[[Model: StructLM 7B](https://huggingface.co/TIGER-Lab/StructLM-7B)\] \[[Model: StructLM 13B](https://huggingface.co/TIGER-Lab/StructLM-13B)\] \[[Model: StructLM 34B](https://huggingface.co/TIGER-Lab/StructLM-34B)\] \[[Dataset: SKGInstruct](https://huggingface.co/datasets/TIGER-Lab/SKGInstruct)\]
 
+### Parameter-Efficient Fine-Tuning
+
+* FinSQL, FinSQL: Model-Agnostic LLMs-based Text-to-SQL Framework for Financial Analysis. SIGMOD Companion 24. [\[Paper\](https://arxiv.org/pdf/2401.10506)]
+
+### Direct Preference Optimization
+
+* SENSE, Synthesizing Text-to-SQL Data from Weak and Strong LLMs. ACL 24. \[[Paper](https://aclanthology.org/2024.acl-long.425.pdf)\]
+
+
+### Small Language Model + Large Language Model
+
+* ZeroNL2SQL, Combining Small Language Models and Large Language Models for Zero-Shot NL2SQL. VLDB 24. \[[Paper](https://dl.acm.org/doi/10.14778/3681954.3681960)\]
+
 ### Multimodal Table Understanding & Extraction
 
 * LayoutLM, LayoutLM: Pre-training of Text and Layout for Document Image Understanding. KDD 20. \[[Paper](https://dl.acm.org/doi/10.1145/3394486.3403172)\]
 * PubTabNet, Image-Based Table Recognition: Data, Model, and Evaluation. ECCV 20. \[[Paper](https://link.springer.com/chapter/10.1007/978-3-030-58589-1_34)\] \[[Code & Data](https://github.com/ibm-aur-nlp/PubTabNet)\]
 * Table-LLaVA, Multimodal Table Understanding. ACL 24. \[[Paper](https://arxiv.org/abs/2406.08100)\] \[[Code](https://github.com/SpursGoZmy/Table-LLaVA)\] \[[Model](https://huggingface.co/SpursgoZmy/table-llava-v1.5-7b)\]
 * TableLVM, TableVLM: Multi-modal Pre-training for Table Structure Recognition. ACL 23. \[[Paper](https://aclanthology.org/2023.acl-long.137/)\]
+* PixT3, PixT3: Pixel-based Table-To-Text Generation. ACL 24. \[[Paper](https://aclanthology.org/2024.acl-long.364.pdf)\]
 
 ### Representation
 
@@ -150,15 +167,17 @@ Large Language Models. \[[Paper](http://arxiv.org/abs/2402.08259)\]
 | AnaMeta            | Table Metadata            | [link](https://github.com/microsoft/AnaMeta)                         | [ACL 23](https://arxiv.org/abs/2209.00946)                  |
 | GPT4Table          | Table QA,   Table-to-text | [link](https://github.com/Y-Sui/GPT4Table)                           | [WSDM 24](https://arxiv.org/abs/2305.13062)                 |
 | ToTTo              | Table-to-text             | [link](https://github.com/google-research-datasets/totto)            | [EMNLP 20](https://aclanthology.org/2020.emnlp-main.89/)                |
-| SpreadsheetBench | Spreadsheet Manipulation | [link](https://github.com/RUCKBReasoning/SpreadsheetBench) | [arXiv 24](https://arxiv.org/abs/2406.14991) |
+| SpreadsheetBench | Spreadsheet Manipulation | [link](https://github.com/RUCKBReasoning/SpreadsheetBench) | [NeurIPS 24](https://arxiv.org/abs/2406.14991) |
 | BIRD               | NL2SQL               | [link](https://bird-bench.github.io/)                                | [NeurIPS 23](https://arxiv.org/abs/2305.03111)              |
 | Spider             | NL2SQL               | [link](https://yale-lily.github.io/spider)                           | [EMNLP 18](https://arxiv.org/abs/1809.08887)                |
 | Dr.Spider             | NL2SQL               | [link](https://github.com/awslabs/diagnostic-robustness-text-to-sql)                           | [ICLR 23](https://arxiv.org/abs/2301.08881)                |
+| ScienceBenchmark             | NL2SQL               | [link](https://sciencebenchmark.cloudlab.zhaw.ch/)                           | [VLDB 24](https://arxiv.org/pdf/2306.04743)                |
 | DS-1000            | Data Analysis    | [link](https://ds1000-code-gen.github.io/)                           | [ICML 23](https://arxiv.org/abs/2211.11501)                 |
 | InfiAgent-DABench | Data Analysis | [link](https://github.com/InfiAgent/InfiAgent) | [ICML 24](https://arxiv.org/abs/2401.05507) |
 | TableBank | Table Detection | [link](https://doc-analysis.github.io/tablebank-page/) | [LERC 20](https://aclanthology.org/2020.lrec-1.236/) | 
 | PubTabNet | Table Extraction | [link](https://github.com/ibm-aur-nlp/PubTabNet) | [ECCV 20](https://arxiv.org/abs/1911.10683) |
-| ComTQA | Visual Table QA, Table Detection, Table Extraction | [link](https://huggingface.co/datasets/ByteDance/ComTQA) | [arXiv 24](https://arxiv.org/abs/2406.01326v1) | 
+| ComTQA | Visual Table QA, Table Detection, Table Extraction | [link](https://huggingface.co/datasets/ByteDance/ComTQA) | [arXiv 24](https://arxiv.org/abs/2406.01326v1) |
+
 
 ### Datasets
 
@@ -170,3 +189,4 @@ Large Language Models. \[[Paper](http://arxiv.org/abs/2402.08259)\]
 | GitTables          | GitHub CSVs    | [link](https://gittables.github.io/)                                 | [SIGMOD 23](https://arxiv.org/abs/2106.07258)              |
 | DART               | Table-to-text             | [link](https://github.com/Yale-LILY/dart)                            | [NAACL 21](https://aclanthology.org/2021.naacl-main.37/)                |
 | MMTab               | Multimodal Table Understanding             | [link](https://huggingface.co/datasets/SpursgoZmy/MMTab)                            | [ACL 24](https://arxiv.org/abs/2406.08100)                |
+| SchemaPile | Database Schemas | [link](https://schemapile.github.io/) | [SIGMOD 24](hhttps://dl.acm.org/doi/abs/10.1145/3654975) |
