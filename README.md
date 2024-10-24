@@ -189,4 +189,4 @@ Large Language Models. \[[Paper](http://arxiv.org/abs/2402.08259)\]
 | GitTables          | GitHub CSVs    | [link](https://gittables.github.io/)                                 | [SIGMOD 23](https://arxiv.org/abs/2106.07258)              |
 | DART               | Table-to-text             | [link](https://github.com/Yale-LILY/dart)                            | [NAACL 21](https://aclanthology.org/2021.naacl-main.37/)                |
 | MMTab               | Multimodal Table Understanding             | [link](https://huggingface.co/datasets/SpursgoZmy/MMTab)                            | [ACL 24](https://arxiv.org/abs/2406.08100)                |
-| SchemaPile | Database Schemas | [link](https://schemapile.github.io/) | [SIGMOD 24](hhttps://dl.acm.org/doi/abs/10.1145/3654975) |
+| SchemaPile | Database Schemas | [link](https://schemapile.github.io/) | [SIGMOD 24](https://dl.acm.org/doi/abs/10.1145/3654975) |
